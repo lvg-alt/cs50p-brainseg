@@ -1,6 +1,8 @@
 # Brain MRI Tissue Segmentation (CS50P final project)
 
-Segmentation of brain tissue in DICOM T1 axial slices MRI
+Segmentation of brain tissue in DICOM T1 axial slices MRI.
+https://www.youtube.com/watch?v=CsjcGFDXO14.
+
 A compact Python pipeline that demonstrates basic MRI preprocessing and tissue classification on single T1-weighted axial slices (2D).  
 The goal is educational: to learn how DICOM images are read, how skull-stripping can be approached for T1 images, and how a simple Gaussian-Mixture model can separate CSF / gray matter / white matter.
 
