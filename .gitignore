@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+.env
+
+# Data (block DICOMs by default)
+*.dcm
+data/
+raw_data/
+example_data/*.dcm    # override later if you want to permit sample_anonymized.dcm explicitly
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
